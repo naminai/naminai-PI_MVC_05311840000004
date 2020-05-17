@@ -1,0 +1,25 @@
+{% extends "layout.html" %}
+ 
+{% block title %}Home{% endblock %}
+ 
+{% block body %}
+ 
+<div class="container mt-4">
+    <div class="jumbotron">
+        <h1 class="display-4">Selamat Datang</h1>
+        <p class="lead">Tiada hari tanpa berbagi, melangkah bersama dengan Donasi, menuju esok hari yang tak pasti!</p>
+        <p class="displat">Beberapa kategori yang tersedia: </p>
+
+        <button type="button" class="btn btn-success">Uang</button>
+        <button type="button" class="btn btn-info">Alat Kesehatan</button>
+        <button type="button" class="btn btn-warning">Bahan Makanan</button>
+        <button type="button" class="btn btn-danger">Lain-lain</button>
+
+    </div>
+
+    <form action="{{BASE_URL}}/donasi">
+        <button type="submit" class="btn btn-primary btn-lg btn-block">Mari mulai membantu sesama sekarang</button>
+    </form>
+</div>
+ 
+{% endblock %}

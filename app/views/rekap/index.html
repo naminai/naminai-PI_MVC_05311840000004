@@ -1,0 +1,35 @@
+{% extends "layout.html" %}
+ 
+{% block title %}Home{% endblock %}
+ 
+{% block body %}
+
+<table class="table">
+    <thead class="thead-dark">
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">Jenis Donasi</th>
+        <th scope="col">Nama Donatur</th>
+        <th scope="col">Bentuk Donasi</th>
+        <th scope="col">Jumlah Donasi</th>
+        <th scope="col">Tanggal Transaksi</th>
+      </tr>
+    </thead>
+    <tbody>
+    {% for donasi in donasis %}
+
+      <tr>
+        <th scope="row">{{ donasi['id'] }}</th>
+        <td>{{ donasi['jenisDonasi'] }}</td>
+        <td>{{ donasi['namaDonatur'] }}</td>
+        <td>{{ donasi['bentukDonasi'] }}</td>
+        <td>{{ donasi['jumlahDonasi'] }}</td>
+        <td>{{ donasi['time'] }}</td>
+      </tr>
+
+    {% endfor %}
+
+    </tbody>
+  </table>
+
+  {% endblock %}
