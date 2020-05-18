@@ -53,4 +53,4 @@ Nama (NRP): Donny Kurnia Ramadhani (05311840000004)
 * Mencari berdasarkan kategori 
 ![search2](https://user-images.githubusercontent.com/61267430/82163831-97c6cc00-98d7-11ea-9ad9-d969fbb56a69.jpg)
 * Menampilkan deskripsi transaksi
-![show](https://user-images.githubusercontent.com/61267430/82163847-b2994080-98d7-11ea-8b8c-ea6015e6b6ea.jpg)
+![show](https://user-images.githubusercontent.com/61267430/82163994-7fa37c80-98d8-11ea-933d-a1b449e4cf0d.jpg)
