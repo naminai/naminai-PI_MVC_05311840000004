@@ -1,6 +1,9 @@
 # Pemrograman_Integratif_MVC_05311840000004
 Nama (NRP): Donny Kurnia Ramadhani (05311840000004)
 
+## Deskripsi Singkat Aplikasi
+Donasi.com memiliki beberapa fitur, seperti mengirimkan transaksi berupa donasi tergantung jenis donasinya. Kemudian memperlihatkan tabel rekapitulasi donasi yang berisi data-data hasil transaksi donasi oleh donatur. Setiap orang bisa mengisi formulir dengan menambahkan donasi di page donasi, yang kemudian akan dimasukkan ke database. 
+
 ## Struktur
 * app
   * controllers
